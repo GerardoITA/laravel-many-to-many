@@ -13,10 +13,7 @@
       
     </head>
     <body>
-        <h1>Products</h1>
-        @foreach ($products as $product)
-            <h3> {{ $product -> name }}</h3>
-            <h4>  {{ $product -> category }}</h4>
-        @endforeach
+        <h1>Product</h1>
+        
     </body>
 </html>
