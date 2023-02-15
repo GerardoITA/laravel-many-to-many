@@ -18,8 +18,8 @@ class CategoryFactory extends Factory
     {
         return [
             'code' => fake()->regexify('[A-Z0-9]{5}'),
-            'name' => fake()->words(rand(1, 3), true),
-            'description' => fake()->text(rand(50, 200)),
+            'name' => fake()->words(rand(1, 2), true),
+            'description' => fake()->text(rand(5, 32)),
         ];
     }
 }
